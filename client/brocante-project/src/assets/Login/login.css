@@ -1,0 +1,74 @@
+.main-container-login {
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8) 100%),
+      url("../../assets/sky.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.1rem;
+    margin-top: 8px;
+  }
+  
+  .login-logo {
+    scale: 0.7;
+  }
+  
+  .app-title {
+    transform: translateY(-25px);
+  }
+  
+  .login-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  label {
+      display: inline-block;
+      width: 140px;
+      text-align: right;
+      font-size: 1.3rem;
+  }
+  
+  
+  .text-redirect {
+      margin-top: 16px;
+  }
+  
+  .text-sign-up {
+      color: #FD9E9E;
+  }
+  
+  .text-sign-up:hover {
+      text-decoration: underline;
+      cursor: pointer;
+  }
+  
+  /* Responsive */
+  
+  @media screen and (max-width: 1200px) {
+      .styled-btn {
+         width: 80%;
+         margin: auto;
+      }
+  
+      .styled-input {
+          display: block;
+          width: 90%;
+      }
+  
+      label {
+          width: auto;
+          margin-left: 8px;
+      }
+  
+  }
